@@ -1,0 +1,161 @@
+
+body{
+    overflow-x: hidden;
+}
+.nav__main{
+    background-image: url(../media/header.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.navbar ul {
+    margin-top: 95px;
+    margin-left:500px
+   
+
+}
+.navbar ul li{
+ display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+.head2 p{
+    
+    padding: 40px;
+}
+.head2{
+    margin-left: 150px;
+    padding: 0px 150px;
+}
+.about-sec{
+    margin-top: 104px;
+}
+.pic{
+    margin-top: 73px;
+}
+.but{
+    border-top:2px solid rgba(0, 0, 0, 0.396);
+    border-right: 2px solid rgba(0, 0, 0, 0.396);
+    height: 69px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.social__icon{
+    font-size:30px;
+    border-radius: 3px;
+    margin-right:10px;
+    color:white;
+    width:40px;
+    text-align: center;
+    padding:5px 0;
+    margin-right:25px;
+    
+  
+}
+.fa-facebook-f{
+    background-color: rgb(8, 111, 227);
+}
+.fa-twitter{
+    background:rgb(7, 185, 255);
+}
+.fa-instagram{
+    background:lightgray;
+    color:black;
+}
+.fa-face-meh-blank{
+     background: rgb(246, 5, 185);
+}
+.fa-linkedin-in{
+    background:rgb(12, 115, 155);
+
+}
+.fa-google{
+    background:rgb(245, 47, 7);
+
+}
+.skill-section{
+    background-image: url(../media/3rd-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:900px
+
+}
+.head3{
+    text-align: center;
+    color: white;
+    /* padding-top: 100px; */
+    
+}
+.p3{
+    text-align: center;
+    color: white;
+    /* margin-top: 50px; */
+    /* padding-bottom: 80px; */
+}
+.skill_1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    margin: auto;
+    
+}
+.skill-section h4{
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.number{
+    padding: 75px;
+    color: rgb(255, 253, 253);
+}
+
+.portfolio__section{
+    background-image: url(../media/portfolio1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    color:rgb(255, 255, 255);
+    
+}
+.portfolio__section__inner{
+    background-image: url(../media/portfolio2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    height: 100%;    
+    color:white;
+    background-color:rgba(231, 110, 23, 0.967);
+    background-blend-mode: soft-light;      
+    }
+    .contact-section{
+        background-image: url(../media/contact-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+    }
+    #contact{
+        border: 2px solid white;
+        background-color: transparent;
+        padding: 20px;
+        width: 450px;
+        color: #fff;
+    }
+    textarea{
+        border: 2px solid white;
+        background-color: transparent;
+        color: #fff;
+        padding: 20px;
+    }
+    ::placeholder{
+        color: #fff;
+        font-size: 20px;
+    }
